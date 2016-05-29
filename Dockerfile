@@ -9,7 +9,8 @@ RUN apt-get update && \
                         wget \
                         ca-certificates \
                         netcat \
-                        libcurl4-openssl-dev
+                        libcurl4-openssl-dev \
+			php5
 
 # Install domoticz
 RUN mkdir /domoticz && \
